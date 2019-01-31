@@ -61,9 +61,9 @@ means to distinguish them)
 
 ● Trips are shown by lines
 
-○ If in Booked state, a line from the car to the pickup point
+● If in Booked state, a line from the car to the pickup point
 
-○ If OnTrip, a line from source to destination
+● If OnTrip, a line from source to destination
 
 ● A customer (user of the app) requests a ride by clicking on a “Request” button and
 clicking two points on the map. The system searches through the fleets and assigns an
