@@ -50,18 +50,25 @@ b. A way for the user of the app to request a ride by clicking on the source and
 destination points on the map
 
 The app functions as follows:
+
 ● The main instantiates the fleets and cars of the fleet by reading an input file (format
 defined later) and hands over control to the App
+
 ● The app displays a map (a rectangular area) showing the status of all cars and trips.
 Cars are shown as small circles/rectangles/images, in the colour of their fleet, and with
 their id/name next to it. Idle cars have a special indication (colour, font or any other
 means to distinguish them)
+
 ● Trips are shown by lines
+
 ○ If in Booked state, a line from the car to the pickup point
+
 ○ If OnTrip, a line from source to destination
+
 ● A customer (user of the app) requests a ride by clicking on a “Request” button and
 clicking two points on the map. The system searches through the fleets and assigns an
 available car to this user
+
 ● The App periodically checks the status and locations of all cars and trips and updates
 the Display
 
